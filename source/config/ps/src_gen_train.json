@@ -1,0 +1,17 @@
+{
+    "augmentation": true,
+    "curr_dataset": "Site_A",
+    "disc_lr": 0.00025,
+    "domain_id": 0,
+    "feat_matching_layer": "stage0",
+    "gen_lr": 0.00025,
+    "image_size": 256,
+    "latent_dim": 512,
+    "n_domains": 6,
+    "n_gen_steps": 500000,
+    "num_workers": 8,
+    "r1_gamma": 5,
+    "save_path": "path/to/ps_source_gen",
+    "seed": 1,
+    "task": "train_gen"
+}

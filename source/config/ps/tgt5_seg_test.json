@@ -1,0 +1,20 @@
+{
+    "ckpt": "130",
+    "curr_dataset": "Site_F",
+    "domain_id": 5,
+    "gen_model_path": "/path/to/ps_tgt5_gen",
+    "n_domains": 6,
+    "n_seg_steps": 500,
+    "prev_dataset": [
+        "Site_B",
+        "Site_C",
+        "Site_D",
+        "Site_E"
+    ],
+    "save_path": "/path/to/ps_tgt5_seg_test",
+    "seed": 1,
+    "seg_lr": 0.0005,
+    "seg_model_path": "/path/to/ps_tgt5_seg",
+    "src_dataset": "Site_A",
+    "task": "test_seg"
+}

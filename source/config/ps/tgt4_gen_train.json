@@ -1,0 +1,18 @@
+{
+    "augmentation": true,
+    "ckpt": "150",
+    "cont_coefficient": 10.0,
+    "curr_dataset": "Site_E",
+    "disc_lr": 0.00025,
+    "domain_id": 4,
+    "feat_matching_layer": "stage4",
+    "img_coefficient": 1.0,
+    "gen_lr": 0.00025,
+    "gen_model_path": "/path/to/ps_tgt3_gen",
+    "n_domains": 6,
+    "n_gen_steps": 20000,
+    "r1_gamma": 5,
+    "save_path": "/path/to/ps_tgt4_gen",
+    "seed": 1,
+    "task": "train_gen"
+}

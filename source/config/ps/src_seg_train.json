@@ -1,0 +1,15 @@
+{
+    "augmentation": false,
+    "batch_size": 16,
+    "curr_dataset": "Site_A",
+    "domain_id": 0,
+    "image_size": 256,
+    "latent_dim": 512,
+    "n_domains": 6,
+    "n_seg_classes": 2,
+    "n_seg_steps": 100,
+    "save_path": "/path/to/ps_source_seg",
+    "seed": 1,
+    "seg_lr": 0.05,
+    "task": "train_seg"
+}

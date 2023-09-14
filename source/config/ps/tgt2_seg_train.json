@@ -1,0 +1,17 @@
+{
+    "ckpt": "130",
+    "curr_dataset": "Site_C",
+    "domain_id": 2,
+    "gen_model_path": "/path/to/ps_tgt2_gen",
+    "n_domains": 6,
+    "n_seg_steps": 500,
+    "prev_dataset": [
+        "Site_B"
+    ],
+    "save_path": "/path/to/ps_tgt2_seg",
+    "seed": 1,
+    "seg_lr": 0.0005,
+    "seg_model_path": "/path/to/ps_tgt1_seg",
+    "src_dataset": "Site_A",
+    "task": "train_seg"
+}
