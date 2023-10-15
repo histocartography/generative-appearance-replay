@@ -1,4 +1,4 @@
-name: garda-test
+name: garda
 dependencies:
   - python=3.7
   - numpy=1.21.*
